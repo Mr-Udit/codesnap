@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.container{
+    min-height: 500px;
+    width: auto;
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f-32px{
+    font-size: 32px;
+}
+.t-white{
+    color: white;
+}
+.t-center{
+    text-align: center;
+}
+.t-gray-500{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.section1{
+    background: orange;
+}
+.section2{
+    background:magenta;
+    min-height: 300px;
+    padding: 50px 100px 50px 100px;
+}
+.badge{
+    padding: 10px 50px 10px 50px;
+    background:rgba(128, 128, 103, 0.283);
+    border-left: 5px solid rgb(104, 104, 72);
+    font-size: 20px;
+}
+
+.section3{
+    background:skyblue;
+}
+
+.img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 30px 30px 0px ;
+}
+img{
+    filter: drop-shadow(0px 0px 10px gray);
+    border-radius: 10px;
+}
+
+.img-container{
+display: flex ;
+flex-wrap: wrap;
+
+
+
+}
+
+.section4{
+    padding: 50px 100px 0px 100px;
+    background: rgb(189, 129, 17);
+}
+.section5{
+    background: violet;
+    padding: 50px 100px 50px 100px;
+}
+.section6{
+    background: rgb(6, 142, 6);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px ;
+}
+.white-rectangle{
+    background: whitesmoke;
+    width: 600px;
+    height: 300px;
+}
+
+.red-rectangle{
+    margin:34px 36px 0px 32px;
+    background: red;
+    width: 200px;
+    height: 100px;
+}
+.circle{
+    margin-top:200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 40px;
+}
+.section7{
+    padding: 50px 100px 50px 100px;
+    background: rgb(87, 87, 227);
+}
+.form-container{
+    width: 200px;
+}
+.section8{
+    padding: 50px 100px 50px 100px;
+    background-color:rgb(245, 117, 71);
+}
+.section9{
+    padding: 50px 100px 50px 100px;
+    background: rgb(92, 92, 203);
+}
+
+.footer{
+    background: rgb(40, 39, 39);
+    text-align: center;
+    height: 70px ;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
